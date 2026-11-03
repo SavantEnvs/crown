@@ -1,0 +1,4 @@
+name = "crown"
+size = [1 2.5 -3]
+flag = true
+count = 42
