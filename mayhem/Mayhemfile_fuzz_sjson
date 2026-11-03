@@ -1,0 +1,9 @@
+project: savantenvs/crown
+target: fuzz_sjson
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_sjson/testsuite
+cmds:
+  - cmd: /mayhem/build/mayhem/fuzz_sjson
+    libfuzzer: true
+    timeout: 5

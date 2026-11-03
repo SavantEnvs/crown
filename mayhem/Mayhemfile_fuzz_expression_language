@@ -1,0 +1,9 @@
+project: savantenvs/crown
+target: fuzz_expression_language
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_expression_language/testsuite
+cmds:
+  - cmd: /mayhem/build/mayhem/fuzz_expression_language
+    libfuzzer: true
+    timeout: 5

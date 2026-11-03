@@ -1,0 +1,7 @@
+units = [
+  { guid = "961f8005-6a7e-4371-9272-8454dd786884" name = "a" pos = [0 1 2] rot = [0 0 0 1] }
+]
+// comment
+mat = [1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1]
+id = "foo/bar"
+verb = """raw text"""
